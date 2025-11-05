@@ -224,4 +224,41 @@ Styles pour la page Projets
         max-width: 100%;
         height: auto;
     }
+
+}
+/*
+=============================
+Styles pour le Bouton CTA
+=============================
+*/
+
+.cta-bouton {
+    /* Rendre le lien comme un bloc pour pouvoir lui donner des dimensions */
+    display: inline-block; 
+    
+    /* Couleurs et rembourrage */
+    background-color: #004a99; /* Utilisation de la couleur bleue principale */
+    color: white; /* Texte blanc */
+    padding: 12px 25px; /* Espace autour du texte (rembourrage interne) */
+    
+    /* Design et typographie */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    font-size: 1em; 
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Met le texte en majuscules pour plus d'impact */
+    
+    /* Espacement par rapport au contenu précédent */
+    margin-top: 25px; 
+    margin-bottom: 20px;
+    
+    /* Animation pour l'effet de survol */
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Effet au survol de la souris (HOVER) */
+.cta-bouton:hover {
+    background-color: #003366; /* Bleu plus foncé au survol */
+    transform: translateY(-1px); /* Léger mouvement vers le haut pour l'effet 3D */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
 }
