@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bureau de Contrôle VRAI CONTROLE</title>
+	<link rel="icon" type="image/png" href="images/VC-FAVICON.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bureau de Contrôle VRAI CONTROLE</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Nos Services</a>
+            <a href="projets.html">Nos Projets</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Contactez-nous</h2>
+        <p>
+            Pour toute demande d'étude, de devis ou d'information,
+            n'hésitez pas à nous contacter.
+        </p>
+
+        <div class="contact-grid">
+            
+            <div class="contact-info">
+                <h3>Nos Coordonnées</h3>
+                <p>
+                    <strong>Adresse :</strong><br>
+                    Angle Av Hassan I et Hassan II<br>
+                    Ensemble résidentiel JAWHARA<br>
+
+
+N° de 
+                </p>
+                <p>
+                    <strong>GSM:</strong><br>
+                     06 62 78 29 39<br>
+					 <strong>Tél:</strong><br>05 37 58 74 64
+                </p>
+                <p>
+                    <strong>Email :</strong><br>
+                    vrai.controle@gmail.com
+                </p>
+            </div>
+
+            <div class="contact-form">
+                <h3>Envoyez-nous un message</h3>
+                
+                <form action="traitement-formulaire.php" method="POST">
+                    
+                    <label for="nom">Votre Nom :</label>
+                    <input type="text" id="nom" name="nom_utilisateur" required>
+                    
+                    <label for="email">Votre Email :</label>
+                    <input type="email" id="email" name="email_utilisateur" required>
+                    
+                    <label for="objet">Objet :</label>
+                    <input type="text" id="objet" name="objet_message">
+                    
+                    <label for="message">Votre Message :</label>
+                    <textarea id="message" name="message_utilisateur" rows="6" required></textarea>
+                    
+                    <button type="submit">Envoyer le message</button>
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Bureau de Contrôle VRAI CONTROLE. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
