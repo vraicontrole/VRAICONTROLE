@@ -284,7 +284,7 @@ header.main-header {
 /* Styles pour le logo */
 .logo-image {
     /* Définissez une hauteur pour votre logo. C'est le plus important. */
-    height: 45px; 
+    height: 75px; 
     width: auto;
     display: block;
 }
@@ -304,3 +304,4 @@ header nav a {
 /* Supprime les anciens styles de h1 qui ne sont plus nécessaires */
 /* Vous pouvez commenter ou supprimer l'ancien style h1 si vous en aviez un */
 /* header h1 { display: none; } */
+
