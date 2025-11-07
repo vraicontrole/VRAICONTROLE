@@ -262,3 +262,45 @@ Styles pour le Bouton CTA
     transform: translateY(-1px); /* Léger mouvement vers le haut pour l'effet 3D */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
 }
+/* ======================================= */
+/* Remplacement des styles d'en-tête existants */
+/* ======================================= */
+
+header.main-header {
+    /* Flexbox est la clé pour aligner côte à côte */
+    display: flex;
+    
+    /* Place le logo à gauche et le menu à droite (espace maximal entre eux) */
+    justify-content: space-between; 
+    
+    /* Centre verticalement le logo et les liens de navigation */
+    align-items: center; 
+    
+    background-color: #004a99;
+    color: white;
+    padding: 15px 5%; /* Ajustement du rembourrage pour laisser de la place au logo */
+}
+
+/* Styles pour le logo */
+.logo-image {
+    /* Définissez une hauteur pour votre logo. C'est le plus important. */
+    height: 45px; 
+    width: auto;
+    display: block;
+}
+
+/* On s'assure que les liens de navigation sont toujours bien alignés */
+header nav {
+    margin: 0;
+}
+
+/* Mise à jour des liens de navigation pour s'assurer qu'ils sont bien centrés verticalement */
+header nav a {
+    /* Conservez le style existant ou ajustez le padding si nécessaire */
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+/* Supprime les anciens styles de h1 qui ne sont plus nécessaires */
+/* Vous pouvez commenter ou supprimer l'ancien style h1 si vous en aviez un */
+/* header h1 { display: none; } */
